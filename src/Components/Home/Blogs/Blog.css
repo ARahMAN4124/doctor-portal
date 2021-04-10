@@ -1,0 +1,37 @@
+.blog-card {
+  cursor: pointer;
+  height: 350px;
+  transition: 0.4s all ease-in-out;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -moz-transition: 0.4s all ease-in-out;
+  -ms-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+}
+.blog-card:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 255, 234, 0.616),
+      rgba(0, 221, 250, 0.541)
+    ),
+    url(../../../images/quote.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+/* .blog-card:hover .card-body {
+  background-image: url(../../../images/quote.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+} */
+.blog-card:hover .img,
+.blog-card:hover .description {
+  display: none;
+}

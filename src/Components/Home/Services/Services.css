@@ -1,0 +1,17 @@
+.service {
+  padding-top: 5rem;
+}
+.infoCard {
+  border-radius: 10px;
+  padding: 1em;
+  border: 2px solid rgb(0, 255, 242);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+.infoCard:hover {
+  box-shadow: 5px 5px 20px gray;
+}

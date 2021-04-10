@@ -1,0 +1,9 @@
+.patients {
+  background-image: url(../../../images/quote.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.patients h2 {
+  padding-bottom: 0.8em;
+  font-size: 45px;
+}

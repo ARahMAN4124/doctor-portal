@@ -1,0 +1,12 @@
+.cardInfo {
+  height: 120px;
+}
+.info {
+  background-color: rgb(0, 168, 173);
+}
+.dark {
+  background-color: rgb(42, 42, 42);
+}
+.info-icon {
+  font-size: 40px;
+}

@@ -1,0 +1,18 @@
+.home {
+  height: 640px;
+  width: 100%;
+  background-image: url(../../../images/Mask\ Group\ 2.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.home::after {
+  height: 100%;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 32%;
+  right: 0;
+  background-color: rgb(61, 61, 61);
+  z-index: -1;
+}
