@@ -1,14 +1,14 @@
 import React from "react";
-import "./Appoinment.css";
-import appointmentdoctor from "../../../images/5790-removebg.png";
+import "./Appointment.css";
+import appointmentDoctor from "../../../images/5790-removebg.png";
 
-const Appoinment = () => {
+const Appointment = () => {
   return (
     <section className="appoinment">
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <img src={appointmentdoctor} className="img-fluid" alt="" />
+            <img src={appointmentDoctor} className="img-fluid" alt="" />
           </div>
           <div className="col-md-7 text-white align-self-center">
             <h5 className="text-info">APPOINMENT</h5>
@@ -28,4 +28,4 @@ const Appoinment = () => {
   );
 };
 
-export default Appoinment;
+export default Appointment;

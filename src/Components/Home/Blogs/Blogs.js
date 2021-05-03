@@ -39,8 +39,8 @@ const Blogs = () => {
           <h2>From Our Blog News</h2>
         </div>
         <div className="row">
-          {blogs.map((blogCard) => (
-            <BlogCard blogCard={blogCard}></BlogCard>
+          {blogs.map((blogCard, index) => (
+            <BlogCard key={index + 1} blogCard={blogCard}></BlogCard>
           ))}
         </div>
       </div>

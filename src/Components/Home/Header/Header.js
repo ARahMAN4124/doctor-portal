@@ -1,6 +1,6 @@
 import React from "react";
-import MainHeader from "./MainHeader/MainHeader";
-import Menubar from "./Menubar/Menubar";
+import MainHeader from "../../CommonComponents/MainHeader/MainHeader";
+import Menubar from "../../CommonComponents/Menubar/Menubar";
 import HeaderCard from "./HeaderCard/HeaderCard";
 import "./Header.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import chair from "../../../../images/Mask Group 1.png";
+import chair from "../../../images/Mask Group 1.png";
 import "./MainHeader.css";
 
 const MainHeader = () => {

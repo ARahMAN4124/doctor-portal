@@ -39,8 +39,11 @@ const Patients = () => {
           </h2>
         </div>
         <div className="row">
-          {patientsInfo.map((patient) => (
-            <PatientsCardInfo patient={patient}></PatientsCardInfo>
+          {patientsInfo.map((patient, index) => (
+            <PatientsCardInfo
+              key={index + 1}
+              patient={patient}
+            ></PatientsCardInfo>
           ))}
         </div>
       </div>

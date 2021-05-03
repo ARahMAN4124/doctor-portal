@@ -3,7 +3,6 @@ import "./HeaderCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const HeaderCardInfo = ({ cardInfo }) => {
-  console.log(cardInfo);
   return (
     <div className="col-md-4 text-white">
       <div

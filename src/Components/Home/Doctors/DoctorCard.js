@@ -1,25 +1,17 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const DoctorCard = ({ doctorCard }) => {
-  console.log(doctorCard);
   return (
     <div className="col-md-4 text-center">
       <div>
         <img
-          src={doctorCard.img}
-          className="img-fluid"
-          style={{ height: "250px" }}
+          src={doctorCard.imgUrl}
+          className="img-fluid rounded"
+          style={{ height: "200px", width: "200px" }}
           alt=""
         />
         <h5>{doctorCard.name}</h5>
-        <p>
-          <FontAwesomeIcon
-            style={{ color: "rgb(0, 168, 173)" }}
-            icon={doctorCard.icon}
-          />{" "}
-          {doctorCard.phone}
-        </p>
+        <p>{doctorCard.email}</p>
       </div>
     </div>
   );

@@ -30,8 +30,8 @@ const CardInfo = () => {
   return (
     <div className="container">
       <div className="row">
-        {cardInfo.map((cardInfo) => (
-          <HeaderCardInfo cardInfo={cardInfo}></HeaderCardInfo>
+        {cardInfo.map((cardInfo, index) => (
+          <HeaderCardInfo key={index + 1} cardInfo={cardInfo}></HeaderCardInfo>
         ))}
       </div>
     </div>

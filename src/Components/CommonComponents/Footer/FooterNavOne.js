@@ -5,24 +5,18 @@ const FooterNavOne = () => {
     <div>
       <ul className="nav flex-column">
         <li className="nav-item">
-          <a className="nav-link text-secondary" href="#">
-            Emergency Dental Care
-          </a>
+          <p className="nav-link text-secondary">Emergency Dental Care</p>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-secondary" href="#">
-            Check Up
-          </a>
+          <p className="nav-link text-secondary">Check Up</p>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-secondary" href="#">
+          <p className="nav-link text-secondary">
             Treatment of Personal Diseases
-          </a>
+          </p>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-secondary" href="#">
-            Tooth Extraction
-          </a>
+          <p className="nav-link text-secondary">Tooth Extraction</p>
         </li>
       </ul>
     </div>

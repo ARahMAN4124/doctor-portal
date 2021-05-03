@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Menubar = () => {
   return (
@@ -16,36 +17,34 @@ const Menubar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ml-auto mb-2  mb-lg-0">
             <li className="nav-item mr-4">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active text-info" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item mr-4">
-              <a className="nav-link" href="#">
-                About
-              </a>
+              <Link className="nav-link text-info" to="/addAppointment">
+                Appointments
+              </Link>
             </li>
             <li className="nav-item mr-4">
-              <a className="nav-link" href="#">
-                Dental Services
-              </a>
-            </li>
-            <li className="nav-item mr-4">
-              <a className="nav-link text-white" href="#">
-                Reviews
-              </a>
-            </li>
-            <li className="nav-item mr-4">
-              <a className="nav-link text-white" href="#">
-                Blog
-              </a>
+              <Link to="/dashboard" className="nav-link text-info">
+                Admin
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
-                Contact Us
-              </a>
+              <p className="nav-link text-info">Contact Us</p>
+            </li>
+            <li className="nav-item mr-4">
+              <Link to="/logIn" className="nav-link text-info">
+                LogIn
+              </Link>
+            </li>
+            <li className="nav-item mr-4">
+              <Link to="/dashboard" className="nav-link text-info">
+                Dashboard
+              </Link>
             </li>
           </ul>
         </div>
